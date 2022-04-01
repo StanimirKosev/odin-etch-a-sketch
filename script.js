@@ -17,7 +17,7 @@ function defaultGrid(rows,cols){
     };
    
 };
-defaultGrid(16,16);
+defaultGrid(16,16);  /** Cant set up dynamically changing Grid.  */
 
 const button=document.getElementById('butt');
 button.textContent='Reset';
