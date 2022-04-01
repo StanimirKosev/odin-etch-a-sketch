@@ -9,7 +9,7 @@ body{
     display: grid; 
     grid-template-columns: repeat(16,50px);
     max-width: 960px;
-    padding:100px;
+    margin-right: 100px;
 }
 
 .div1{
@@ -18,4 +18,14 @@ body{
     border:1px solid black;
     background: transparent;
     background-color: white;
+}
+#butt{
+    padding:40px;
+    margin-right: 20px;
+    border: 1;
+    border-radius: 20px;
+    color: #b30000;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
